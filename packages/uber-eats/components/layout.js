@@ -41,7 +41,7 @@ export default function Layout({ children, home }) {
         ) : (
           <>
             <Link href="/">
-              <a>
+              {/* <a>
                 <Image
                   priority
                   src="/images/profile.jpg"
@@ -50,7 +50,7 @@ export default function Layout({ children, home }) {
                   width={108}
                   alt={name}
                 />
-              </a>
+              </a> */}
             </Link>
             <h2 className={utilStyles.headingLg}>
               <Link href="/">
